@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+} */
+
+html,body{
+  color: #ffffff;
+  background:#1f1934;
+}
+
+main {
+  background: #393a47; 
+  height: 100vh;
+  height: 100dvh ;/* ocupa toda la altura dinamica del viewport*/
+  
+
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

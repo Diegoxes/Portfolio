@@ -1,5 +1,5 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, 
-    Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter,Mail ,
+    Youtube, Crop, Pencil, Computer, Book, Rocket, Speech ,Github} from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -10,21 +10,21 @@ export const socialNetworks = [
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/diego-mendoza-b33541122",
     },
     {
         id: 3,
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/Diegoxes",
+    },
+    {
+        id: 4,
         logo: <Twitter size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
+        logo: <Mail size={30} strokeWidth={1} />,
         src: "#!",
     },
 ];

@@ -1,5 +1,5 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter,Mail ,
-    Youtube, Crop, Pencil, Computer, Book, Rocket, Speech ,Github} from "lucide-react";
+     Crop, Pencil, Computer, Book, Rocket, Speech ,Github} from "lucide-react";
 
 export const socialNetworks = [
     // {
@@ -55,12 +55,12 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    // {
+    //     id: 5,
+    //     title: "Home",
+    //     icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+    //     link: "/testimonials",
+    // },
 ];
 
 export const dataAboutPage = [
@@ -157,56 +157,56 @@ export const dataPortfolio = [
     {
         id: 1,
         title: "Web Pro",
-        image: "/image-1.jpg",
+        image: "/image1.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 2,
         title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
+        image: "/image2.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 3,
         title: "Estrategias Web",
-        image: "/image-3.jpg",
+        image: "/image3.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 4,
         title: "Ideas Creativas",
-        image: "/image-4.jpg",
+        image: "/image4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 5,
         title: "Webs Impactantes",
-        image: "/image-5.jpg",
+        image: "/image5.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 6,
         title: "Web Dinámica",
-        image: "/image-6.jpg",
+        image: "/image6.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 7,
         title: "Dark Web ",
-        image: "/image-7.jpg",
+        image: "/image7.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 8,
         title: "E-commerce web",
-        image: "/image-8.jpg",
+        image: "/image8.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     }

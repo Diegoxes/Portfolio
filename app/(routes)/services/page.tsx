@@ -1,11 +1,31 @@
-import React from 'react'
+// import AvatarServices from '../../../components/avatar-services'
+import CircleImage from "../../../components/circle-image";
+import SliderServices from "../../../components/slider-services";
+import TransitionPage from "../../../components/transition-page";
 
-const Services=()=> {
-  return
-  (
-    <>
-    </>
-  )
+const ServicesPage = () => {
+    return (
+        <>
+
+            <TransitionPage/>
+            <CircleImage />
+            {/* <AvatarServices /> */}
+            <div className="grid items-center justify-center h-screen 
+            max-w-5xl gap-6 mx-auto md:grid-cols-2">
+                <div className="max-w-[450px] mt-20 md:px-20">
+
+                    <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">Mis <span className="font-bold text-secondary"> servicios.</span></h1>
+                    <p className="mb-3 text-xl text-gray-300">Ofrezco servicios de desarrollo Full Stack, especializándome en Node, Express, PostgreSQL, SQL Server, Spring Boot, React, Angular, Redux, TypeScript y Next.js. Creo aplicaciones web robustas y escalables, diseñadas para brindar una experiencia de usuario intuitiva y optimizada, adaptadas a las necesidades de cada cliente.</p>
+                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
+                </div>
+
+                {/* SLIDER */}
+                <div>
+                    <SliderServices />
+                </div>
+            </div>
+        </>
+    );
 }
 
-export default Services
+export default ServicesPage;

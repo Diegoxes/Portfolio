@@ -66,7 +66,7 @@ export const itemsNavbar = [
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Full Stack Developer",
+        title: "Analista Programador",
         subtitle: "Hayduk",
         description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
         date: "Aug 2024 ",
@@ -85,10 +85,10 @@ export const dataAboutPage = [
         description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
         date: "Aug 2023",
     },
-    {
+    {   
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
+        title: "Prácticas ",
+        subtitle: "WebWizards ",
         description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
         date: "Nov 2022",
     },
@@ -128,9 +128,9 @@ export const dataCounter = [
 export const serviceData = [
     {
         icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
+        title: "Análisis y Diseño de Sistemas",
+        description: "Planificación estratégica y modelado de procesos de negocio ",
+     },
     {
         icon: <Pencil />,
         title: "Diseño web",
@@ -146,66 +146,58 @@ export const serviceData = [
         title: "Copywriting",
         description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
     },
-    {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
-    },
+    // {
+    //     icon: <Rocket />,
+    //     title: "SEO",
+    //     description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+    // },
 ];
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
         image: "/image1.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
         image: "/image2.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
         image: "/image3.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
         image: "/image4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
         image: "/image5.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 6,
-        title: "Web Dinámica",
         image: "/image6.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 7,
-        title: "Dark Web ",
         image: "/image7.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 8,
-        title: "E-commerce web",
         image: "/image8.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
